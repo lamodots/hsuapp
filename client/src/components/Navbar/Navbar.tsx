@@ -1,4 +1,3 @@
-import React from 'react';
 import { HiHome, HiUserGroup } from 'react-icons/hi';
 import { ImUserCheck } from 'react-icons/im';
 import { MdAddModerator } from 'react-icons/md';

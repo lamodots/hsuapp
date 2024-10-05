@@ -1,5 +1,3 @@
-import React from 'react';
-
 function SplashScreen() {
 	return (
 		<div className='w-dvw h-dvh flex flex-col justify-center items-center overflow-hidden bg-[url("./assets/grad-bg.png")] bg-cover'>

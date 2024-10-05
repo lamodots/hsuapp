@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import SplashScreen from '../components/SplashScreen/SplashScreen';
+import { useState } from 'react';
+
 import LabelText from '../components/LabelText/LabelText';
 import Input from '../components/Input/Input';
 import Button from '../components/Button/Button';
 import { toast } from 'react-toastify';
 import List from '../components/List/List';
-import UpdateStatus from '../components/UpdateStatus/UpdateStatus';
+
 import { MdFilterList } from 'react-icons/md';
-import Datepicker from 'react-tailwindcss-datepicker';
+
 import DatePicker from '../components/DatePicker/DatePicker';
 import { DateValueType } from 'react-tailwindcss-datepicker';
 const data = [
@@ -77,7 +77,6 @@ const data = [
 // 	endDate: Date | null;
 // };
 function Member() {
-	const [loading, setLoading] = useState(true);
 	const [phone, setPhone] = useState('');
 	const [isSubmitting, setIsSubmitting] = useState(false);
 	const [value, setValue] = useState<DateValueType>({
@@ -86,25 +85,6 @@ function Member() {
 		endDate: null,
 	});
 	const [showDate, setShowDate] = useState(false);
-
-	// //splashscreen
-	// useEffect(() => {
-	// 	const timer = setTimeout(() => {
-	// 		setLoading(false);
-	// 	}, 6000);
-
-	// 	return () => clearTimeout(timer);
-	// }, []);
-
-	// if (loading) {
-	// 	return (
-	// 		<div>
-	// 			<SplashScreen />
-	// 		</div>
-	// 	);
-	// }
-
-	// Handle form
 
 	async function handleSearch(event: React.FormEvent<HTMLFormElement>) {
 		event.preventDefault();

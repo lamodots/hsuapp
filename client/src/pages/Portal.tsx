@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import SplashScreen from '../components/SplashScreen/SplashScreen';
 import LabelText from '../components/LabelText/LabelText';
 import Input from '../components/Input/Input';
 import Button from '../components/Button/Button';
 import { toast } from 'react-toastify';
-
-import Tag from '../components/Tag/Tag';
 
 function Portal() {
 	const [loading, setLoading] = useState(true);

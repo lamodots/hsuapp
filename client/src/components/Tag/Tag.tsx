@@ -1,5 +1,3 @@
-import React from 'react';
-
 type Props = {
 	tagText: string;
 	ready?: boolean;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import SplashScreen from '../components/SplashScreen/SplashScreen';
 import LabelText from '../components/LabelText/LabelText';
 import Input from '../components/Input/Input';
@@ -6,7 +6,6 @@ import Button from '../components/Button/Button';
 import { toast } from 'react-toastify';
 
 import Tag from '../components/Tag/Tag';
-import Navbar from '../components/Navbar/Navbar';
 
 function VerifyIdPage() {
 	const [loading, setLoading] = useState(true);

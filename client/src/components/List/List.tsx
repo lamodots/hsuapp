@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HiDotsVertical } from 'react-icons/hi';
 import { LiaEdit } from 'react-icons/lia';
 import { GiConfirmed } from 'react-icons/gi';
