@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: '/hsuapp/client/',
+	base: 'https://github.com/lamodots/hsuapp',
 	server: {
 		proxy: {
 			api: {
